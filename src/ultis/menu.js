@@ -1,6 +1,6 @@
 import icons from "./icons";
 
-const { MdOutlineVideoLibrary } = icons;
+const { MdOutlineVideoLibrary, BiDoughnutChart, TbChartArcs, VscNotebook } = icons;
 
 export const sidebarMenu = [
     {
@@ -12,16 +12,16 @@ export const sidebarMenu = [
         path: '',
         text: 'Khám phá',
         end: true,
-        icons: <MdOutlineVideoLibrary size={24} />
+        icons: <TbChartArcs size={24} />
     },
     {
         path: 'zing-chart',
         text: '#zingchart',
-        icons: <MdOutlineVideoLibrary size={24} />
+        icons: <BiDoughnutChart size={24} />
     },
     {
         path: 'follows',
         text: 'Theo dõi',
-        icons: <MdOutlineVideoLibrary size={24} />
+        icons: <VscNotebook size={24} />
     },
 ]

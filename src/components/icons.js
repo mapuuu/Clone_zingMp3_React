@@ -4,7 +4,7 @@ import { TbChartArcs } from 'react-icons/tb';
 import { VscNotebook} from 'react-icons/vsc';
 import { HiOutlineArrowNarrowLeft} from 'react-icons/hi';
 import { HiOutlineArrowNarrowRight} from 'react-icons/hi';
-import { AiOutlineSearch } from 'react-icons/ai';
+
 
 const icons = {
     MdOutlineVideoLibrary,
@@ -12,8 +12,7 @@ const icons = {
     TbChartArcs,
     VscNotebook,
     HiOutlineArrowNarrowLeft,
-    HiOutlineArrowNarrowRight,
-    AiOutlineSearch,
+    HiOutlineArrowNarrowRight
 }
 
 export default icons;
